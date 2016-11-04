@@ -1,0 +1,25 @@
+{
+  "name": "streams.io",
+  "version": "0.1.0",
+  "description": "some utils for whatwg streams",
+  "main": "lib/index.js",
+  "repository": "haoxins/streams.io",
+  "scripts": {
+    "example": "webpack --config test/webpack.js"
+  },
+  "keywords": [
+    "streams",
+    "whatwg",
+    "utils"
+  ],
+  "author": "haoxin",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "6",
+    "babel-loader": "6",
+    "mocha": "2",
+    "mocha-loader": "0",
+    "webpack": "1",
+    "webpack-dev-server": "1"
+  }
+}
